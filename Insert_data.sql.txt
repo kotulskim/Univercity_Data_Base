@@ -1,0 +1,561 @@
+INSERT INTO systems VALUES(101,'Uniwersytecki System Studentów ', 'USS');
+
+INSERT INTO universities VALUES(201,'Politechnika Warszawska', 'PW','Plac Politechniki',1, 'Warszawa',101);
+
+INSERT INTO universities VALUES(202,'Uniwersytet Warszawski', 'UW','Krakowskie Przedmieście','26/28', 'Warszawa',101);
+
+INSERT INTO universities VALUES(203,'Szkoła Główna Gospodarstwa Wiejskiego', 'SGGW','Nowoursynowska','166', 'Warszawa',101);
+
+INSERT INTO students VALUES(321000, 'Konrad', 'Kotulski', 'M', 'Automatyka i Robotyka', 101);
+
+INSERT INTO students VALUES(321001, 'Marcin', 'Adamczyk', 'M', 'Automatyka i Robotyka', 101);
+
+INSERT INTO students VALUES(321002, 'Michal', 'Kotulski', 'M', 'Automatyka i Robotyka', 101);
+
+INSERT INTO students VALUES(321003, 'Monika', 'Smulik', 'K', 'Automatyka i Robotyka', 101);
+
+INSERT INTO students VALUES(321004, 'Marta', 'Kowalska', 'K', 'Automatyka i Robotyka', 101);
+
+INSERT INTO students VALUES(321005, 'Kordian', 'Kot', 'M', 'Automatyka i Robotyka', 101);
+
+INSERT INTO students VALUES(321006, 'Kornelia', 'Dorywalska', 'K', 'Telekomunikacja', 101);
+
+INSERT INTO students VALUES(321007, 'Kacper', 'Marcinkowski', 'M', 'Telekomunikacja', 101);
+
+INSERT INTO students VALUES(321008, 'Julia', 'Kotulska', 'K', 'Telekomunikacja', 101);
+
+INSERT INTO students VALUES(321009, 'Beata', 'Mynarska', 'K', 'Telekomunikacja', 101);
+
+INSERT INTO students VALUES(321010, 'Beata', 'Malerek', 'K', 'Polonistyka', 101);
+
+INSERT INTO students VALUES(321011, 'Roberta', 'Stawowczyk', 'M', 'Polonistyka', 101);
+
+INSERT INTO students VALUES(321012, 'Pawel', 'Stawowczyk', 'M', 'Polonistyka', 101);
+
+INSERT INTO students VALUES(321013, 'Marcin', 'Kotulski', 'M', 'Polonistyka', 101);
+
+INSERT INTO students VALUES(321014, 'Dariusz', 'Klimczyk', 'M', 'Polonistyka', 101);
+
+INSERT INTO students VALUES(321015, 'Sebastian', 'Smulik', 'M', 'Polonistyka', 101);
+
+INSERT INTO students VALUES(321016, 'Wiktoria', 'Goldyn', 'K', 'Dziennikarstwo', 101);
+
+INSERT INTO students VALUES(321017, 'Wiktoria', 'Cegla', 'K', 'Dziennikarstwo', 101);
+
+INSERT INTO students VALUES(321018, 'Aleksandra', 'Podsiedlik', 'K', 'Dziennikarstwo', 101);
+
+INSERT INTO students VALUES(321019, 'Bożena', 'Maciejczyk', 'K', 'Dziennikarstwo', 101);
+
+INSERT INTO students VALUES(321020, 'Anna', 'Rogalska', 'K', 'Dziennikarstwo', 101);
+
+INSERT INTO students VALUES(321021, 'Katarzyna', 'Kotulska', 'K', 'Dziennikarstwo', 101);
+
+INSERT INTO students VALUES(321022, 'Elżbieta', 'Toborek', 'K', 'Dietetyka', 101);
+
+INSERT INTO students VALUES(321023, 'Marta', 'Mazurkiewicz', 'K', 'Dietetyka', 101);
+
+INSERT INTO students VALUES(321024, 'Pawel', 'Smulik', 'M', 'Dietetyka', 101);
+
+INSERT INTO students VALUES(321025, 'Piotr', 'Jankowski', 'M', 'Dietetyka', 101);
+
+INSERT INTO students VALUES(321026, 'Edyta', 'Jaskólska', 'K', 'Dietetyka', 101);
+
+INSERT INTO students VALUES(321027, 'Ewa', 'Wawrzyniak', 'K', 'Dietetyka', 101);
+
+INSERT INTO uni_stud VALUES(201, 321000);
+
+INSERT INTO uni_stud VALUES(201, 321001);
+
+INSERT INTO uni_stud VALUES(201, 321002);
+
+INSERT INTO uni_stud VALUES(201, 321003);
+
+INSERT INTO uni_stud VALUES(201, 321004);
+
+INSERT INTO uni_stud VALUES(201, 321005);
+
+INSERT INTO uni_stud VALUES(201, 321006);
+
+INSERT INTO uni_stud VALUES(201, 321007);
+
+INSERT INTO uni_stud VALUES(201, 321008);
+
+INSERT INTO uni_stud VALUES(201, 321009);
+
+INSERT INTO uni_stud VALUES(202, 321010);
+
+INSERT INTO uni_stud VALUES(202, 321011);
+
+INSERT INTO uni_stud VALUES(202, 321012);
+
+INSERT INTO uni_stud VALUES(202, 321013);
+
+INSERT INTO uni_stud VALUES(202, 321014);
+
+INSERT INTO uni_stud VALUES(202, 321015);
+
+INSERT INTO uni_stud VALUES(202, 321016);
+
+INSERT INTO uni_stud VALUES(202, 321017);
+
+INSERT INTO uni_stud VALUES(202, 321018);
+
+INSERT INTO uni_stud VALUES(202, 321019);
+
+INSERT INTO uni_stud VALUES(202, 321020);
+
+INSERT INTO uni_stud VALUES(202, 321021);
+
+INSERT INTO uni_stud VALUES(203, 321022);
+
+INSERT INTO uni_stud VALUES(203, 321023);
+
+INSERT INTO uni_stud VALUES(203, 321024);
+
+INSERT INTO uni_stud VALUES(203, 321025);
+
+INSERT INTO uni_stud VALUES(203, 321026);
+
+INSERT INTO uni_stud VALUES(203, 321027);
+
+INSERT INTO lecturers VALUES(987000, 'Slawomir', 'Kukla', 101);
+
+INSERT INTO lecturers VALUES(987001, 'Maria', 'Duda', 101);
+
+INSERT INTO lecturers VALUES(987002, 'Jan', 'Kowalski', 101);
+
+INSERT INTO lecturers VALUES(987003, 'Robert', 'Markowski', 101);
+
+INSERT INTO lecturers VALUES(987004, 'Eliza', 'Maka', 101);
+
+INSERT INTO lecturers VALUES(987005, 'Julita', 'Dobrowolska', 101);
+
+INSERT INTO lecturers VALUES(987006, 'Karolina', 'Febo', 101);
+
+INSERT INTO subjects VALUES(300, 'Fizyka Ogólna', 'FOG', 101, 201, 987000);
+
+INSERT INTO subjects VALUES(301, 'Cyfrowe Przetwarzanie Sygnaów', 'CYPS', 101, 201, 987001);
+
+INSERT INTO subjects VALUES(302, 'Analiza 2', 'ANL2', 101, 201, 987001);
+
+INSERT INTO subjects VALUES(303, 'Gramatyka', 'GRA', 101, 202, 987002);
+
+INSERT INTO subjects VALUES(304, 'Komunikacja', 'KMN', 101, 202, 987003);
+
+INSERT INTO subjects VALUES(305, 'Fotografia', 'FOT', 101, 202, 987002);
+
+INSERT INTO subjects VALUES(306, 'Chemia Analityczna', 'CHA', 101, 203, 987004);
+
+INSERT INTO subjects VALUES(307, 'Analiza Diety', 'AND', 101, 203, 987005);
+
+INSERT INTO subjects VALUES(308, 'Anatomia', 'ANA', 101, 203, 987006);
+
+INSERT INTO subjects VALUES(309, 'Podstawy Żywienia', 'PZY', 101, 203, 987005);
+
+INSERT INTO uni_lec VALUES(201, 987000);
+
+INSERT INTO uni_lec VALUES(201, 987001);
+
+INSERT INTO uni_lec VALUES(202, 987002);
+
+INSERT INTO uni_lec VALUES(202, 987003);
+
+INSERT INTO uni_lec VALUES(203, 987004);
+
+INSERT INTO uni_lec VALUES(203, 987005);
+
+INSERT INTO uni_lec VALUES(203, 987006);
+
+INSERT INTO stud_sub VALUES(321000, 300 );
+
+INSERT INTO stud_sub VALUES(321000, 302 );
+
+INSERT INTO stud_sub VALUES(321001, 301  );
+
+INSERT INTO stud_sub VALUES(321001, 302 );
+
+INSERT INTO stud_sub VALUES(321002, 300);
+
+INSERT INTO stud_sub VALUES(321002, 301);
+
+INSERT INTO stud_sub VALUES(321003,300 );
+
+INSERT INTO stud_sub VALUES(321003,302 );
+
+INSERT INTO stud_sub VALUES(321004,301 );
+
+INSERT INTO stud_sub VALUES(321004, 302);
+
+INSERT INTO stud_sub VALUES(321005, 302);
+
+INSERT INTO stud_sub VALUES(321005, 300);
+
+INSERT INTO stud_sub VALUES(321006, 301);
+
+INSERT INTO stud_sub VALUES(321006, 302);
+
+INSERT INTO stud_sub VALUES(321007,300 );
+
+INSERT INTO stud_sub VALUES(321008, 300);
+
+INSERT INTO stud_sub VALUES(321008,302 );
+
+INSERT INTO stud_sub VALUES(321009,300 );
+
+INSERT INTO stud_sub VALUES(321009, 301);
+
+INSERT INTO stud_sub VALUES(321010,303 );
+
+INSERT INTO stud_sub VALUES(321010, 304);
+
+INSERT INTO stud_sub VALUES(321011, 304);
+
+INSERT INTO stud_sub VALUES(321012,303 );
+
+INSERT INTO stud_sub VALUES(321012, 304);
+
+INSERT INTO stud_sub VALUES(321013,304 );
+
+INSERT INTO stud_sub VALUES(321013,303 );
+
+INSERT INTO stud_sub VALUES(321014, 303);
+
+INSERT INTO stud_sub VALUES(321014, 304);
+
+INSERT INTO stud_sub VALUES(321015, 304);
+
+INSERT INTO stud_sub VALUES(321016, 304);
+
+INSERT INTO stud_sub VALUES(321016, 305);
+
+INSERT INTO stud_sub VALUES(321017,304 );
+
+INSERT INTO stud_sub VALUES(321017,305 );
+
+INSERT INTO stud_sub VALUES(321018, 304);
+
+INSERT INTO stud_sub VALUES(321019,304 );
+
+INSERT INTO stud_sub VALUES(321019, 305);
+
+INSERT INTO stud_sub VALUES(321020, 305);
+
+INSERT INTO stud_sub VALUES(321021,304 );
+
+INSERT INTO stud_sub VALUES(321021,305 );
+
+INSERT INTO stud_sub VALUES(321022,306 );
+
+INSERT INTO stud_sub VALUES(321022,307 );
+
+INSERT INTO stud_sub VALUES(321022,309 );
+
+INSERT INTO stud_sub VALUES(321023,307 );
+
+INSERT INTO stud_sub VALUES(321023,308 );
+
+INSERT INTO stud_sub VALUES(321024,306 );
+
+INSERT INTO stud_sub VALUES(321024,309 );
+
+INSERT INTO stud_sub VALUES(321024,308 );
+
+INSERT INTO stud_sub VALUES(321025,307 );
+
+INSERT INTO stud_sub VALUES(321025,306 );
+
+INSERT INTO stud_sub VALUES(321026,306 );
+
+INSERT INTO stud_sub VALUES(321026,308 );
+
+INSERT INTO stud_sub VALUES(321027,306 );
+
+INSERT INTO stud_sub VALUES(321027,309 );
+
+INSERT INTO registrations VALUES(401, 'PW ZIMA 2020', '2020-10-01', '2020-10-3', 101, 201 );
+
+INSERT INTO registrations VALUES(402, 'UW LATO 2020', '2020-03-03', '2020-03-31', 101, 202 );
+
+INSERT INTO registrations VALUES(403, 'SGGW LATO 2021', '21/03/01', '21/03/3', 101, 203 );
+
+INSERT INTO reg_sub VALUES(401,300 );
+
+INSERT INTO reg_sub VALUES(401,301 );
+
+INSERT INTO reg_sub VALUES(401,302 );
+
+INSERT INTO reg_sub VALUES(402,303 );
+
+INSERT INTO reg_sub VALUES(402,304 );
+
+INSERT INTO reg_sub VALUES(402,305 );
+
+INSERT INTO reg_sub VALUES(403,306 );
+
+INSERT INTO reg_sub VALUES(403,307 );
+
+INSERT INTO reg_sub VALUES(403,308 );
+
+INSERT INTO reg_sub VALUES(403,309);
+
+
+INSERT INTO reg_stud VALUES(401,321000);
+
+INSERT INTO reg_stud VALUES(401,321001);
+
+INSERT INTO reg_stud VALUES(401,321002);
+
+INSERT INTO reg_stud VALUES(401,321003);
+
+INSERT INTO reg_stud VALUES(401,321004);
+
+INSERT INTO reg_stud VALUES(401,321005);
+
+INSERT INTO reg_stud VALUES(401,321006);
+
+INSERT INTO reg_stud VALUES(401,321007);
+
+INSERT INTO reg_stud VALUES(401,321008);
+
+INSERT INTO reg_stud VALUES(401,321009);
+
+INSERT INTO reg_stud VALUES(402,321010);
+
+INSERT INTO reg_stud VALUES(402,321011);
+
+INSERT INTO reg_stud VALUES(402,321012);
+
+INSERT INTO reg_stud VALUES(402,321013);
+
+INSERT INTO reg_stud VALUES(402,321014);
+
+INSERT INTO reg_stud VALUES(402,321015);
+
+INSERT INTO reg_stud VALUES(402,321016);
+
+INSERT INTO reg_stud VALUES(402,321017);
+
+INSERT INTO reg_stud VALUES(402,321018);
+
+INSERT INTO reg_stud VALUES(402,321019);
+
+INSERT INTO reg_stud VALUES(402,321010);
+
+INSERT INTO reg_stud VALUES(402,321021);
+
+INSERT INTO reg_stud VALUES(403,321022);
+
+INSERT INTO reg_stud VALUES(403,321023);
+
+INSERT INTO reg_stud VALUES(403,321023);
+
+INSERT INTO reg_stud VALUES(403,321025);
+
+INSERT INTO reg_stud VALUES(403,321026);
+
+INSERT INTO reg_stud VALUES(403,321027);
+
+INSERT INTO grades VALUES(1, 3.5, sysdate, 321000, 300, 987000);
+
+INSERT INTO grades VALUES(2, 4.5, sysdate, 321000, 300, 987000);
+
+INSERT INTO grades VALUES(3, 3, sysdate, 321000, 302, 987001);
+
+INSERT INTO grades VALUES(4, 4, sysdate, 321000, 302, 987001);
+
+
+INSERT INTO grades VALUES(5, 5, sysdate, 321001, 301, 987001);
+
+INSERT INTO grades VALUES(6, 4, sysdate, 321001, 301, 987001);
+
+INSERT INTO grades VALUES(7, 2, sysdate, 321001, 302, 987001);
+
+
+INSERT INTO grades VALUES(8, 3, sysdate, 321002, 301, 987001);
+
+INSERT INTO grades VALUES(9, 3.5, sysdate, 321002, 302, 987001);
+
+INSERT INTO grades VALUES(10, 4, sysdate, 321002, 302, 987001);
+
+
+INSERT INTO grades VALUES(11, 5, sysdate, 321003, 300, 987000);
+
+INSERT INTO grades VALUES(12, 3, sysdate, 321003, 302, 987001);
+
+
+INSERT INTO grades VALUES(13, 3, sysdate, 321004, 301, 987001);
+
+INSERT INTO grades VALUES(14, 3, sysdate, 321004, 302, 987001);
+
+INSERT INTO grades VALUES(15, 3.5, sysdate, 321004, 302, 987001);
+
+INSERT INTO grades VALUES(16, 4, sysdate, 321004, 302, 987001);
+
+
+INSERT INTO grades VALUES(17, 4.5, sysdate, 321005, 302, 987001);
+
+INSERT INTO grades VALUES(18, 4.5, sysdate, 321005, 300, 987000);
+
+INSERT INTO grades VALUES(19, 4.5, sysdate, 321005, 300, 987000);
+
+
+INSERT INTO grades VALUES(20, 3.5, sysdate, 321006, 301, 987001);
+
+INSERT INTO grades VALUES(21, 4, sysdate, 321006, 301, 987001);
+
+INSERT INTO grades VALUES(22, 4, sysdate, 321006, 302, 987001);
+
+
+INSERT INTO grades VALUES(23, 3.5, sysdate, 321007, 300, 987000);
+
+INSERT INTO grades VALUES(24, 3, sysdate, 321007, 300, 987000);
+
+INSERT INTO grades VALUES(25, 4, sysdate, 321007, 300, 987000);
+
+INSERT INTO grades VALUES(26, 4.5, sysdate, 321007, 300, 987000);
+
+
+INSERT INTO grades VALUES(27, 5, sysdate, 321008, 300, 987000);
+
+INSERT INTO grades VALUES(28, 3, sysdate, 321008, 302, 987001);
+
+INSERT INTO grades VALUES(29, 2, sysdate, 321008, 302, 987001);
+
+
+INSERT INTO grades VALUES(30, 4.5, sysdate, 321009, 300, 987000);
+
+INSERT INTO grades VALUES(31, 4.5, sysdate, 321009, 301, 987001);
+
+INSERT INTO grades VALUES(32, 2, sysdate, 321009, 301, 987001);
+
+INSERT INTO grades VALUES(33, 4.5, sysdate, 321009, 300, 987000);
+
+
+INSERT INTO grades VALUES(34, 4.5, sysdate, 321010, 304, 987003);
+
+INSERT INTO grades VALUES(35, 3.5, sysdate, 321010, 303, 987002);
+
+INSERT INTO grades VALUES(36, 4, sysdate, 321010, 303, 987002);
+
+
+INSERT INTO grades VALUES(37, 4, sysdate, 321011, 304, 987003);
+
+INSERT INTO grades VALUES(38, 5, sysdate, 321011, 304, 987003);
+
+INSERT INTO grades VALUES(39, 3.5, sysdate, 321011, 304, 987003);
+
+
+INSERT INTO grades VALUES(40, 3, sysdate, 321012, 304, 987003);
+
+INSERT INTO grades VALUES(41, 4, sysdate, 321012, 303, 987002);
+
+INSERT INTO grades VALUES(42, 5, sysdate, 321012, 303, 987002);
+
+
+INSERT INTO grades VALUES(43, 3.5, sysdate, 321013, 304, 987003);
+
+INSERT INTO grades VALUES(44, 2, sysdate, 321013, 304, 987003);
+
+INSERT INTO grades VALUES(45, 3, sysdate, 321013, 303, 987002);
+
+INSERT INTO grades VALUES(46, 3.5, sysdate, 321013, 303, 987002);
+
+
+INSERT INTO grades VALUES(47, 4, sysdate, 321014, 303, 987002);
+
+INSERT INTO grades VALUES(48, 4, sysdate, 321014, 304, 987003);
+
+
+INSERT INTO grades VALUES(49, 4, sysdate, 321015, 304, 987003);
+
+INSERT INTO grades VALUES(50, 5, sysdate, 321015, 304, 987003);
+
+INSERT INTO grades VALUES(51, 5, sysdate, 321015, 304, 987003);
+
+
+INSERT INTO grades VALUES(52, 3, sysdate, 321016, 304, 987003);
+
+INSERT INTO grades VALUES(53, 3.5, sysdate, 321016, 305, 987002);
+
+INSERT INTO grades VALUES(54, 3, sysdate, 321016, 305, 987002);
+
+
+INSERT INTO grades VALUES(55, 2, sysdate, 321017, 304, 987003);
+
+INSERT INTO grades VALUES(56, 5, sysdate, 321017, 305, 987002);
+
+
+INSERT INTO grades VALUES(57, 4, sysdate, 321018, 304, 987003);
+
+INSERT INTO grades VALUES(58, 3.5, sysdate, 321018, 304, 987003);
+
+INSERT INTO grades VALUES(59, 3.5, sysdate, 321018, 304, 987003);
+
+INSERT INTO grades VALUES(60, 4, sysdate, 321018, 304, 987003);
+
+
+INSERT INTO grades VALUES(61, 3, sysdate, 321019, 304, 987003);
+
+INSERT INTO grades VALUES(62, 3.5, sysdate, 321019, 305, 987002);
+
+
+INSERT INTO grades VALUES(63, 5, sysdate, 321020, 305, 987002);
+
+INSERT INTO grades VALUES(64, 5, sysdate, 321020, 305, 987002);
+
+INSERT INTO grades VALUES(65, 3, sysdate, 321020, 305, 987002);
+
+
+INSERT INTO grades VALUES(66, 3.5, sysdate, 321021, 304, 987003);
+
+INSERT INTO grades VALUES(67, 3.5, sysdate, 321021, 304, 987003);
+
+INSERT INTO grades VALUES(68, 2, sysdate, 321021, 305, 987002);
+
+INSERT INTO grades VALUES(69, 2, sysdate, 321021, 305, 987002);
+
+
+INSERT INTO grades VALUES(70, 3.5, sysdate, 321022, 306, 987000);
+
+INSERT INTO grades VALUES(71, 2, sysdate, 321022, 307, 987000);
+
+INSERT INTO grades VALUES(72, 3, sysdate, 321022, 309, 987000);
+
+
+INSERT INTO grades VALUES(73, 3.5, sysdate, 321023, 307, 987005);
+
+INSERT INTO grades VALUES(74, 3, sysdate, 321023, 307, 987005);
+
+INSERT INTO grades VALUES(75, 3, sysdate, 321023, 308, 987006);
+
+INSERT INTO grades VALUES(76, 3.5, sysdate, 321023, 308, 987006);
+
+
+INSERT INTO grades VALUES(77, 4, sysdate, 321024, 306, 987004);
+
+INSERT INTO grades VALUES(78, 3, sysdate, 321024, 308, 987006);
+
+
+INSERT INTO grades VALUES(79, 3, sysdate, 321025, 306, 987004);
+
+INSERT INTO grades VALUES(80, 2, sysdate, 321025, 307, 987005);
+
+INSERT INTO grades VALUES(81, 2, sysdate, 321025, 307, 987005);
+
+
+INSERT INTO grades VALUES(82, 3, sysdate, 321026, 306, 987004);
+
+INSERT INTO grades VALUES(83, 4, sysdate, 321026, 306, 987004);
+
+INSERT INTO grades VALUES(84, 5, sysdate, 321026, 308, 987006);
+
+INSERT INTO grades VALUES(85, 3.5, sysdate, 321026, 308, 987006);
+
+
+INSERT INTO grades VALUES(86, 3.5, sysdate, 321027, 306, 987004);
+
+INSERT INTO grades VALUES(87, 3.5, sysdate, 321027, 309, 987005);
+
+INSERT INTO grades VALUES(88, 4, sysdate, 321027, 309, 987005);
+
+INSERT INTO grades VALUES(89, 3, sysdate, 321027, 309, 987005);
